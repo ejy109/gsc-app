@@ -1,0 +1,7 @@
+sgx.remote_attestation = "dcap"
+sgx.ra_client_spid = ""
+
+# projectamber.intel.com
+sgx.amber_url = "https://localhost/appraisal/v1/"
+sgx.amber_ip = "127.0.0.1"
+sgx.amber_apikey = "00000000000"
