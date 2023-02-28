@@ -52,3 +52,16 @@ make test-gsc-app
 # deploy it to Azure VM
 make AZURESSHPRVKEYFILE=<ssh private key file> AZURESSHIP=<ssh ip> deploy
 ```
+
+- Check the attestation token as needed
+
+```sh
+# install this tool for JWT decode
+sudo snap install jwt-decode
+
+# decode the header of attestation token
+jwt-decode.header "<paste attestation token here>"
+
+# decode the payload of attestation token
+jwt-decode.payload "<paste attestation token here>"
+```
