@@ -34,7 +34,7 @@ sgx.amber_ip = "<IP address>"
 sgx.amber_url = "https://localhost:443/appraisal/v1/"
 # the default apikey, and it should be securely overwritten by
 # a valid apikey through the `/dev/amber/endpoint_apikey` file
-sgx.amber_apikey = ""
+sgx.amber_apikey = "<default API key>"
 ```
 
 - Run a workflow of attestation token retrieval; build with SGX enabled:
