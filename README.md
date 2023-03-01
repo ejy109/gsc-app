@@ -22,6 +22,7 @@ Please refer to the repo of Intel SGX SDK
 # please properly config it after docker installation
 sudo apt install docker.io
 sudo apt install pv
+# and Linux kernel v5.15 or greater
 ```
 
 - Configuration
