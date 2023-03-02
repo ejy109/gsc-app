@@ -15,14 +15,22 @@ grep sgx /proc/cpuinfo && ls -l /dev/sgx*
 ```
 Please refer to the repo of Intel SGX SDK
 [Linux SGX](https://github.com/intel/linux-sgx)
+# check status
+systemctl status aesmd
 ```
 
 3) Others
 ```sh
 # please properly config it after docker installation
 sudo apt install docker.io
+# make sure you can use the following command
+# under your account
+docker images
+
 sudo apt install pv
+
 # and Linux kernel v5.15 or greater
+uname -a
 ```
 
 - Configuration
