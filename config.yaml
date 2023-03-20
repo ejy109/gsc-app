@@ -10,7 +10,7 @@ Registry: ""
 # below; typically, you want to keep the default values though
 Gramine:
     Repository: "https://github.com/bigdata-memory/gramine.git"
-    Branch:     "amber_pr_kbs_beta1"
+    Branch:     "amber_pr_kbs_rc2"
 
 # Specify the Intel SGX driver installed on your machine (more specifically, on the machine where
 # the graminized Docker container will run); there are several variants of the SGX driver:
