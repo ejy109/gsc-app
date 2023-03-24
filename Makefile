@@ -2,13 +2,13 @@ AZURESSHPRVKEYFILE ?= ~/cvm_key.pem
 AZURESSHIP ?= 127.0.0.1
 
 APPNAME := app
-APPVERSION := 0.2
+APPVERSION := 0.3
 
 APPIMAGETAGNAME := $(APPNAME):$(APPVERSION)
 GSCAPPIMAGETAGNAME := gsc-$(APPNAME):$(APPVERSION)
 
 GSC_GITURL := https://github.com/gramineproject/gsc.git
-GSC_GITCOMMIT := 24430f8
+GSC_GITCOMMIT := fa5a07385ac205d89fb6ddb2bc5505ebe97d0539
 
 .PHONY: all gsc-app docker-app test-app deploy clean
 
