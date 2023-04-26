@@ -1,7 +1,9 @@
-# A Minimal Containerized & Graminized Application
+# A Minimal Containerized & Graminized Attestable Application
 
 This example takes advantage of GSC tool's ability
 to wrap a common application container with Gramine-SGX.
+
+It shows a way to attest a SGX wrapped application with project Amber.
 
 ## Quick Start
 
