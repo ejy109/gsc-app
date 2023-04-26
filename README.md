@@ -17,7 +17,7 @@ to wrap a common application container with Gramine-SGX.
 
         Please refer to the repo of Intel SGX SDK
         [Linux SGX](https://github.com/intel/linux-sgx) and
-        [Installation Guide](https://download.01.org/intel-sgx/sgx-dcap/1.16/linux/docs/Intel_SGX_SW_Installation_Guide_for_Linux.pdf)
+        [Installation Guide](https://download.01.org/intel-sgx/sgx-dcap/1.16/linux/docs/Intel_SGX_SW_Installation_Guide_for_Linux.pdf) and make sure it functions correctly.
 
         ```sh
         # check status
