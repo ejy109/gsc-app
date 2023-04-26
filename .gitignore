@@ -3,3 +3,4 @@ gsc/
 #*
 *.bak
 *.tmp
+.history/
