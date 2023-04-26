@@ -74,7 +74,7 @@ It shows a way to attest a SGX wrapped application with project Amber.
     make AZURESSHPRVKEYFILE=<ssh private key file> AZURESSHIP=<ssh ip> deploy
     ```
 
-    Please note that all previously generated containers, including dangling containers, need to be removed before rebuilding.
+    Please note that all previously generated containers, including dangling containers, need to be manually removed before rebuilding.
 
 - Check the attestation token as needed
 
